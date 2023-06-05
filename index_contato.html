@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contatos</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <header>
+
+    <div class="pagetop" id= "pagetop" >
+      <a href="index_home.html" class="button_home" title="home" >
+        <img src="./img/coffee_logo.jpg"  alt="coffee_logo" style="width: 12vw ;margin-bottom: -6vw;">
+      </a>
+    </div>
+        
+    <nav>
+      <li><a  href="./index_home.html">Home</a></li>
+        <li><a href="./index_novidades.html">Novidades</a></li>
+        <li><a href="./index_galeria.html">Galeria</a></li>
+        <li><a href="./index_sobre.html">Sobre</a></li>
+        <li><a class="active" href="./index_contato.html">Contato</a></li>
+    </nav>
+            
+      
+      
+  </header>
+
+  <main>
+    <div class="main-conteiner" style="margin: 3%;">
+      <div class="main-conteudo">
+        <form action="script.php" method="get">
+          <div class="form">
+            <h1>Entre em contato!</h1>
+            <label for="Nome">Nome:</label>
+            <input type="text" name="Nome" placeholder="Escreva seu nome">
+          </div>
+          <div class="form">
+            <label for="E-mail">E-mail:</label>
+            <input type="text" name="E-mail" placeholder="usuario@exemplo.com" required>
+          </div>
+        </form>
+        <form class="form" action="/action_page.php">
+          <textarea name="mensagem" rows="10" cols="30">Escreva uma mensagem</textarea>
+          <br><br>
+          <input type="submit">
+        </form>
+
+      </div>
+    </div>
+
+
+  </main>
+
+  <hr style="margin-top: 20%;">
+  <footer>
+    <p>Criado por Lina Sakamoto</p>
+  </footer>
+
+</body>
+
+<style>
+
+ main{
+  display: flex;
+  justify-content: center;
+ }
+
+ .form{
+  margin: 2vw;
+ }
+
+</style>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Galeria</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="pagetop" id= "pagetop" >
+          <a href="index_home.html" class="button_home" title="home" >
+            <img src="./img/coffee_logo.jpg"  alt="All Good Things" style=" width: 12vw ;margin-bottom: -6vw;">
+          </a>
+        </div>
+        
+        <nav>
+          <li><a  href="./index_home.html">Home</a></li>
+            <li><a href="./index_novidades.html">Novidades</a></li>
+            <li><a class="active" href="./index_galeria.html">Galeria</a></li>
+            <li><a href="./index_sobre.html" >Sobre</a></li>
+            <li><a href="./index_contato.html">Contato</a></li>
+        </nav>
+            
+
+        </div>  
+    
+    
+      
+      </header>
+
+    <h1 style="margin: 6vw 7vw 0vw; font-size: 5vw; font-family: calibri;"> Galeria de imagens</h1>
+
+    <div class="row" style="padding: 0vw 6vw;">
+        <div class="column">
+            <a target="_blank" href="./img/sala_article2.jpg">
+                <img src="./img/sala_article2.jpg" alt="Sala" style="width: 100%; height: 20vw;"></a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="./img/alimentacaosaudavel_article3.jpg">
+                <img src="./img/alimentacaosaudavel_article3.jpg" alt="Alimento saudáveis" style="width: 100%; height: 20vw;"></a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="./img/workspacetable_article4.jpg">
+                <img src="./img/workspacetable_article4.jpg" alt="Ambiente de trabalho organizado" style="width: 100%; height: 20vw;"></a>
+        </div>
+    </div>
+    
+    <div class="row" style="padding: 0vw 6vw;">
+        <div class="column">
+            <a target="_blank" href="./img/allgoodthings.article1.jpg">
+                <img src="./img/allgoodthings.article1.jpg" alt="allgoodthings" style="width: 100%; height: 20vw;">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="./img/workspace_article4.jpg">
+                <img src="./img/workspace_article4.jpg" alt="Decoração de trabalho" style="width: 100%; height: 20vw;">
+            </a>
+        </div>
+        <div class="column">
+            <a target="_blank" href="./img/sala_article4.jpg">
+                <img src="./img/sala_article4.jpg" alt="Sala aconchegante" style="width: 100%; height: 20vw;">
+            </a>
+        </div>
+    </div>
+
+    <hr style="margin-top: 20%;">
+    <footer>
+        <p>Criado por Lina Sakamoto</p>
+    </footer>
+
+</body>
+
+<style>
+
+    *{
+        box-sizing: border-box;
+    }
+
+    .column {
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    padding: 1vw;
+    object-fit: cover;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+</style>
+</html>
